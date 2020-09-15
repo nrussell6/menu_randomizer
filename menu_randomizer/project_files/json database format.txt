@@ -1,0 +1,28 @@
+nameOfDish: 
+dishTypeTag: 
+dishDescription: 
+ingredientList: 
+toolsList: 
+Step 1: 
+Step 2: 
+...
+Last Step:
+
+
+----
+Jalapeño
+jalapeño
+
+		[
+			"NAME",
+			"DISH TYPE",
+			"DISH DESCRIPTION",
+			"INGREDIENT LIST",
+			"TOOLS LIST",
+			"STEP 1. ",
+			"STEP 2. ",
+			"STEP 3. ",
+			"STEP 4. ",
+			"STEP 5. ",
+			"STEP 6. "
+		],

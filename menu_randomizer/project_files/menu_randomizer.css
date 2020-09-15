@@ -1,0 +1,27 @@
+.buttonLayout{
+	padding: .8em;
+	background-color: #16B6B6;
+	border-radius: 5px 20px 5px;
+}
+
+
+.space{
+	width: 7em;
+}
+
+
+.cardLayout{
+	padding: .5em;
+	border: solid black;
+	vertical-align: text-top;
+	width: 14em;
+}
+
+.dayLayout{
+	text-align: center;
+	border: solid black;
+	font-size: x-large;
+	padding: .5em;
+	font-style: italic;
+	font-weight: bold;
+}
