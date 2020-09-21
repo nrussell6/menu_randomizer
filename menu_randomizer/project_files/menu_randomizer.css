@@ -1,7 +1,6 @@
 .buttonLayout{
 	padding: .8em;
 	background-color: #16B6B6;
-	/* border-radius: 5px 20px 5px; */
 }
 .space{
 	width: 7em;
@@ -26,4 +25,17 @@
 	font-size: large;
 	padding: .5em;
 	font-style: italic;
+}
+
+.explanation{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border: solid black;
+}
+
+label{
+    font-weight: bolder;
+    font-style: italic;   
 }

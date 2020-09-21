@@ -96,11 +96,11 @@ function cardGenerator(nameOfDish, dishType, dishDescription, ingredientList,
     toolList, cookingDirections){
     //Generate an HTML card with its details.
     var text = 
-        "<div>NAME: " + nameOfDish + "</div><hr />" +
-        "<div>DISH TYPE: " + dishType + "</div><hr />" +
-        "<div>DESCRIPTION: " + dishDescription + "</div><hr />" + 
-        "<div>INGREDIENTS LIST: " + ingredientList + "</div><hr />" +
-        "<div>TOOLS LIST: " + toolList + "</div><hr />" +
+        "<div><label>NAME:</label> " + nameOfDish + "</div><hr />" +
+        "<div><label>DISH TYPE:</label> " + dishType + "</div><hr />" +
+        "<div><label>DESCRIPTION:</label> " + dishDescription + "</div><hr />" + 
+        "<div><label>INGREDIENTS LIST:</label> " + ingredientList + "</div><hr />" +
+        "<div><label>TOOLS LIST:</label> " + toolList + "</div><hr />" +
         "<div><strong>COOKING DIRECTIONS:</strong><hr /><br />";
     //Evaluates each element of the cookingDirections array and adds those details to HTML card.
     for(var x = 0; x < cookingDirections.length; x++){
